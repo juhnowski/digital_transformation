@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="0" name="ex4.ArtefactTest" time="1.905" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.boot.library.path" value="D:\Java\18\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\ПАБ\akka_test_1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ПАБ\akka_test_1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ILYA~1.YUK\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\Java\18\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;D:\swipl\bin;D:\Strawberry\c\bin;D:\Strawberry\perl\site\bin;D:\Strawberry\perl\bin;D:\nodejs\;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;C:\Users\Ilya.Yukhnovskiy\AppData\Local\Microsoft\WindowsApps;D:\java\IntelliJ IDEA Community Edition 2021.2\bin;D:\MiKTeX\miktex\bin\x64\;C:\Users\Ilya.Yukhnovskiy\AppData\Local\atom\bin;D:\lein;C:\Users\Ilya.Yukhnovskiy\.dotnet\tools;C:\Users\Ilya.Yukhnovskiy\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;D:\DataGrip\bin;;D:\Microsoft VS Code\bin;C:\Users\Ilya.Yukhnovskiy\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ilya.Yukhnovskiy"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="Ilya.Yukhnovskiy"/>
+    <property name="java.class.path" value="D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2 test"/>
+    <property name="java.home" value="D:\Java\18"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\java\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ex4.ArtefactTest" name="testReturnArtefactNotAvailableIfArtefactStopsBeforeAnswering" time="0.12"/>
+  <testcase classname="ex4.ArtefactTest" name="testReplyWithEmptyReadingIfNoWellIsKnown" time="0.015"/>
+  <testcase classname="ex4.ArtefactTest" name="testIt" time="0.139"/>
+  <testcase classname="ex4.ArtefactTest" name="testReturnSameActorForSameArtefactId" time="0.023"/>
+  <testcase classname="ex4.ArtefactTest" name="testReplyWithLatestWellReading" time="0.016"/>
+  <testcase classname="ex4.ArtefactTest" name="testReplyToRegistrationRequests" time="0.014"/>
+  <testcase classname="ex4.ArtefactTest" name="testIgnoreRequestsForWrongGroupId" time="0.114"/>
+  <testcase classname="ex4.ArtefactTest" name="testCollectWellsFromAllActiveArtefacts" time="0.028"/>
+  <testcase classname="ex4.ArtefactTest" name="testReturnArtefactTimedOutIfArtefactDoesNotAnswerInTime" time="1.052"/>
+  <testcase classname="ex4.ArtefactTest" name="testReturnWellNotAvailableForArtefactsWithNoReadings" time="0.058"/>
+  <testcase classname="ex4.ArtefactTest" name="testReturnWellValueForWorkingArtefacts" time="0.048"/>
+  <testcase classname="ex4.ArtefactTest" name="testReturnWellReadingEvenIfArtefactStopsAfterAnswering" time="0.048"/>
+  <testcase classname="ex4.ArtefactTest" name="testRegisterArtefactActor" time="0.015"/>
+  <testcase classname="ex4.ArtefactTest" name="testIgnoreWrongRegistrationRequests" time="0.215"/>
+</testsuite>
